@@ -11,8 +11,8 @@ const Header = (props)=>{
                 <div className={s.avatar}>
                 </div>
                 <div>
-                    <p className={s.textName}>Igor Selin</p>
-                    <p className={s.proffesy} > Web-developer, react hurry</p>
+                    <p className={s.textName}>Lewis<br/> Nathaniel</p>
+                    <p className={s.proff}>UI & UX Designer</p>
                 </div>
             </div>
                 <nav className={s.navigation}>
