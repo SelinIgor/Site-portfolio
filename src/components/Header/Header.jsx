@@ -16,13 +16,12 @@ const Header = (props)=>{
                 </div>
             </div>
                 <nav className={s.navigation}>
-                    <ul>
                    <NavLink to={"/work"} className={s.navItem}>Work</NavLink>
                     <NavLink to={"/aboutMe"} className={s.navItem}>About me</NavLink>
                     <NavLink to={"/blog"} className={s.navItem}>Blog</NavLink>
                     <NavLink to={"/contact"} className={s.navItem}>Contact</NavLink>
                     <NavLink to={"/hireMe"} className={s.navItem}>Hire me</NavLink>
-                    </ul>
+
                 </nav>
                 </div>
             </div>

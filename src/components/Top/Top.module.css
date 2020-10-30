@@ -48,7 +48,7 @@
     border-radius: 5px;
 }
 .buttons{
-    display:block;
+    display:flex;
     text-align: center;
 }
 
