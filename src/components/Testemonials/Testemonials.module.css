@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    margin: 50px auto 25px;
+    background-image: url("../../img/recomendBg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.text{
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 700px;
+    color: #999798;
+}

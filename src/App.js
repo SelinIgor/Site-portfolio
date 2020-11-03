@@ -4,6 +4,8 @@ import Header from "./components/Header/Header";
 import Top from "./components/Top/Top";
 import {BrowserRouter} from "react-router-dom";
 import Works from "./components/Works/Works";
+import About from "./components/About/About";
+import Testemonials from "./components/Testemonials/Testemonials";
 
 const App=()=> {
     return (<div>
@@ -11,6 +13,8 @@ const App=()=> {
                 <Header/>
                 <Top/>
                 <Works/>
+                <About/>
+                <Testemonials/>
             </BrowserRouter>
         </div>);
 }

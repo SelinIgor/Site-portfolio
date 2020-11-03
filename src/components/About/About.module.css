@@ -1,0 +1,64 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.imageBlock{
+    background-image: url("../../img/designer_photo2.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    width: 70%;
+    height: 606px;
+}
+.description{
+    display: flex;
+    justify-content: flex-start;
+}
+.description p:first-child {
+    color: #2b2a2c;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+.description p:first-child {
+    color: #2b2a2c;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    margin:0px;
+}
+.description p:last-child{
+    color: #dedede;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: bold;
+    margin:0px;
+}
+.text{
+    max-width: 400px;
+    margin: 0 auto;
+    color: #7a797b;
+}
+
+.buttons{
+    margin-top: 20px;
+    display:flex;
+    text-align: center;
+}
+.button{
+    margin-right: 20px;
+    text-decoration: none;
+    color:#000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.8;
+    transition: all 0.2s linear;
+    border: 2px solid #000000;
+    border-radius: 60px;
+    padding: 10px 25px;
+}
+.button:hover{
+    opacity: 1;
+    color:#ffff;
+    background-color:#2b2a2c ;
+}
