@@ -1,0 +1,28 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.Footer{
+    background: #2b2a2c;
+    height: 50px;
+    color: #dedede;
+}
+.footer_inner{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.navItem{
+    color: #dedede;
+    margin-right: 10px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.2s linear;
+}
+.navItem:hover{
+    padding: 0;
+    opacity: 1;
+}

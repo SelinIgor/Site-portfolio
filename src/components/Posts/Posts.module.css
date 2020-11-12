@@ -1,0 +1,85 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 120px auto 0px;
+
+}
+.titles{
+    width: 600px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+
+}
+.title{
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.titles p {
+    color: #999798;
+}
+.postsContainer{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projectItem{
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.projectImage{
+    background-color: #717072;
+
+    height:300px;
+    border-radius: 3px;
+}
+.projectTitle{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+
+}
+.projectInfo {
+    padding:15px 16px
+}
+.date{
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    color: #dedede;
+    opacity: 0.4;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+p:first-child{
+    font-weight: normal;
+}
+.text{
+    color: #9e9d9e;
+    margin-top: 25px;
+}
+.btn{
+    margin-top: 40px;
+}
+.navItem{
+    text-decoration: none;
+    color:#000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.7;
+    transition: all 0.2s linear;
+    border: 2px solid #000000;
+    border-radius: 40px;
+    padding: 5px 15px;
+}
+.navItem:hover{
+    opacity: 1;
+    background: black;
+
+}
