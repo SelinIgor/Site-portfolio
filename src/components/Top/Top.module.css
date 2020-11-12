@@ -69,3 +69,12 @@
     color:#ffff;
     background-color:#2b2a2c ;
 }
+@media (max-width: 756px){
+    .rightSide{
+        display: none;
+    }
+    .top__inner{
+        display: flex;
+        justify-content: center;
+    }
+}

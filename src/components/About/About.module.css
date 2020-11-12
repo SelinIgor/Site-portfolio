@@ -62,3 +62,13 @@
     color:#ffff;
     background-color:#2b2a2c ;
 }
+@media (max-width: 915px) {
+    .imageBlock{
+        display: none;
+    }
+    .description{
+        display: flex;
+        justify-content:center;
+    }
+
+}

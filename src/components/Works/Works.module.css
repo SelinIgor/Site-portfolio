@@ -25,15 +25,17 @@
     flex-wrap: wrap;
 }
 .projectItem{
+    margin: 10px;
     width: 30%;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    margin-right: 30px;
-    margin-bottom: 30px;
+    min-height: 300px;
+    min-width: 300px;
 
 
 }
 .projectImage{
     background-color: #717072;
+
 
     height:300px;
     border-radius: 3px;

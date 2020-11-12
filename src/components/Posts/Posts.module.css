@@ -81,5 +81,6 @@ p:first-child{
 .navItem:hover{
     opacity: 1;
     background: black;
+    color: #dedede;
 
 }

@@ -39,3 +39,8 @@
 p:first-child{
    font-weight: 700;
 }
+@media (max-width: 720px) {
+    .person{
+        top:120px;
+    }
+}
