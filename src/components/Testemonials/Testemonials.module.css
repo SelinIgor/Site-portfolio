@@ -1,9 +1,12 @@
-.container{
-    width: 100%;
-    margin: 50px auto 140px;
+.testemon{
     background-image: url("../../img/recomendBg.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -13,10 +16,11 @@
 
 }
 .text{
-    margin: 0 auto;
-    padding: 30px 0;
-    max-width: 700px;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px;
     color: #999798;
+
 }
 .person {
     position: absolute;
@@ -39,8 +43,10 @@
 p:first-child{
    font-weight: 700;
 }
-@media (max-width: 720px) {
+
+@media (max-width: 420px) {
     .person{
-        top:120px;
+          top:210px;
     }
 }
+

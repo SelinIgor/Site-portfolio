@@ -1,11 +1,10 @@
 .container{
     max-width: 1170px;
     width: 100%;
-    margin: 120px auto 0px;
+    margin: 170px auto 0px;
 
 }
 .titles{
-    width: 600px;
     margin-left: auto;
     margin-right:auto;
     text-align: center;
@@ -25,8 +24,9 @@
 }
 .projectItem{
     width: 30%;
-    margin-right: 30px;
-    margin-bottom: 30px;
+  margin: 30px auto;
+    min-height: 300px;
+    min-width: 300px;
 }
 .projectImage{
     background-color: #717072;

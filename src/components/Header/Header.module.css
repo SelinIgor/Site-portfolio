@@ -27,6 +27,7 @@
 }
 .header{
 margin-top: 20px;
+    margin-bottom: 20px;
 }
 .header__inner{
     display: flex;
@@ -40,6 +41,9 @@ margin-top: 20px;
     justify-content: flex-start;
     align-content: center;
     align-items: center;
+}
+.burger{
+    display: none;
 }
 .navItem{
     margin-right: 40px;
@@ -64,4 +68,19 @@ margin-top: 20px;
     border: 2px solid #000000;
     border-radius: 40px;
     padding: 8px 30px;
+}
+@media (max-width: 750px) {
+    .navigation{
+        display: none;
+    }
+    .burger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .burgerIcon{
+        width: 100%;
+
+    }
 }

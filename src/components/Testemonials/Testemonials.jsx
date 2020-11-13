@@ -2,7 +2,7 @@ import React from "react";
 import s from './Testemonials.module.css'
 const Testemonials = () =>{
     return(<div>
-        <div>
+        <div className={s.testemon}>
         <div className={s.container}>
             <div className={s.text}>
                 Lorem ipsum dolor sit amet, consectetur

@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./Header.module.css";
 import { NavLink } from 'react-router-dom';
+import menu from './../../img/menu/menu.png'
 const Header = (props)=>{
     return( <div className="App">
         <header className={s.header}>
@@ -23,6 +24,9 @@ const Header = (props)=>{
                     <NavLink to={"/hireMe"} className={s.navItem}>Hire me</NavLink>
 
                 </nav>
+                    <div className={s.burger}>
+                       <img className={s.burgerIcon} src={menu}/>
+                    </div>
                 </div>
             </div>
         </header>
