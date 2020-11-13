@@ -7,6 +7,7 @@
 .container{
     width: 100%;
     max-width: 1170px;
+    margin: 0 auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -22,31 +23,6 @@
     color: #999798;
 
 }
-.person {
-    position: absolute;
-    margin: 0 auto;
-    top:100px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-
-}
-.image{
-    border-radius: 50%;
-    border: 2px solid #dedede;
-    width: 100px;
-    height: 100px;
-    background: #332f30;
-}
 p:first-child{
    font-weight: 700;
 }
-
-@media (max-width: 420px) {
-    .person{
-          top:210px;
-    }
-}
-

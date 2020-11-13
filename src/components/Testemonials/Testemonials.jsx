@@ -11,14 +11,7 @@ const Testemonials = () =>{
                 Accusantium corporis deserunt est harum iure libero perferendis, quam reiciendis saepe
                 sint veniam voluptatibus.
             </div>
-            <div className={s.person}>
-                <div className={s.image}> </div>
-                <div>
-                    <p>Edward M. Brooks</p>
-                    <p>Marketing House</p>
-                </div>
 
-            </div>
 
         </div>
 
