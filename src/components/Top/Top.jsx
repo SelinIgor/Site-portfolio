@@ -5,7 +5,7 @@ import facebook from './../../img/social/facebook.svg'
 import twitter from './../../img/social/twitter.svg'
 import {NavLink} from "react-router-dom";
 
-const Top = (props)=>{
+const Top = ()=>{
     return (<div>
             <div className={s.container}>
                 <div className={s.top__inner}>
@@ -27,11 +27,6 @@ const Top = (props)=>{
                             <NavLink to={"/hireMe"} className={s.button}>Hire me</NavLink>
                             <NavLink to={"/resume"} className={s.button}>See my resume</NavLink>
                         </div>
-
-
-
-
-
                     </div>
                     <div className={s.rightSide}>
                     </div>
