@@ -20,8 +20,6 @@ const Top = ()=>{
                             <div className={s.socialItem}><a href={"#"}><img src={facebook} alt={"facebook"}/></a> </div>
 
                             <div className={s.socialItem}><a href={"#"}><img src={twitter} alt={"twitter"}/></a> </div>
-
-
                         </div>
                         <div className={s.buttons}>
                             <NavLink to={"/hireMe"} className={s.button}>Hire me</NavLink>
