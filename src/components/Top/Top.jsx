@@ -27,11 +27,6 @@ const Top = (props)=>{
                             <NavLink to={"/hireMe"} className={s.button}>Hire me</NavLink>
                             <NavLink to={"/resume"} className={s.button}>See my resume</NavLink>
                         </div>
-
-
-
-
-
                     </div>
                     <div className={s.rightSide}>
                     </div>
