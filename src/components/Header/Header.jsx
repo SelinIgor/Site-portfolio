@@ -2,12 +2,11 @@ import React from "react";
 import s from "./Header.module.css";
 import { NavLink } from 'react-router-dom';
 import menu from './../../img/menu/menu.png'
-const Header = (props)=>{
+const Header = ()=>{
     return( <div className="App">
         <header className={s.header}>
             <div className={s.container}>
                 <div className={s.header__inner}>
-
             <div className={s.logoArea}>
                 <div className={s.avatar}>
                 </div>
